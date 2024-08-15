@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+ 
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation"
+        value="false" />
+    <constant name="struts.devMode" value="false" />
+    <constant name="struts.custom.i18n.resources"
+        value="ApplicationResources" />
+ 
+    <package name="default" extends="struts-default" namespace="/">
+        <action name="booking" class="com.powergrid.action.BookingAction">
+            <result name="success">Welcome.jsp</result>
+            <result name="error">booking.jsp</result>
+        </action>
+        
+        <action name="login">  
+			<result >login.jsp</result>  
+		</action>  
+  
+		<action name="loginprocess" class="com.powergrid.action.Login">  
+			<result name="success">homepage.jsp</result>  
+			<result name="error">loginerror.jsp</result>  
+        </action>  
+  
+         <action name="cancelbooking" class="com.powergrid.action.Login">  
+			<result name="success">result.jsp</result>  
+			<result name="error">delete.jsp</result>
+        </action> 
+        <action name="logout" class="com.powergrid.action.Login" method="logout">  
+             <result name="success" >logoutsuccess.jsp</result>  
+         </action> 
+         
+         <action name="view" class="com.powergrid.action.ViewAction" method="input">
+        	 <result name="input">view.jsp</result>
+         </action>
+         
+         <action name="viewprocess" class="com.powergrid.action.ViewAction" method="execute">
+        	 <result name="input">view.jsp</result>
+        	 <result name="success">viewrecord.jsp</result>
+         </action>
+         
+          <action name="delete">
+        	 <result>delete.jsp</result>
+         </action>
+         
+          <action name="contact">
+        	 <result>contact.jsp</result>
+         </action>
+         
+         <action name="home">
+        	 <result>homeview.jsp</result>
+         </action>
+         
+         <action name="about">
+        	 <result>about.jsp</result>
+         </action>
+         
+        
+        
+    </package>
+</struts>

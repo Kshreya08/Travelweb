@@ -20,4 +20,4 @@ Database: MySQL
 Database Connectivity: JDBC API
 Build Tool: Apache Maven
 
-<img src="images/architecture.png" alt="System Architecture" width="600">
+

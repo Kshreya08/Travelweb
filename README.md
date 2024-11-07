@@ -1,12 +1,10 @@
-1. Project Title
-   
-Travel Booking Web Application
+ Project Title: Travel Booking Web Application
 
-3. Project Description
+2. Project Description
 Developed a Travel Booking Web Application utilizing the Model-View-Controller (MVC) architecture, integrated with a MySQL database. The application allows users to confirm and cancel bookings seamlessly. It employs the Struts 2 framework, JSP for web views, and JDBC API for efficient database interactions.
 
 
-4. Features
+3. Features
 User registration and authentication
 Browse available travel packages
 Book and confirm travel packages

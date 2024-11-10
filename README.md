@@ -17,19 +17,17 @@ Developed a web application that streamlines travel booking for employees. This 
 - **Server**: Apache Tomcat
 
 ### Home Page
-![Picture1](https://github.com/user-attachments/assets/ed3c5961-ae53-4e29-8236-d308e86b1e3d)
-
-### Booking Options
 ![Picture2](https://github.com/user-attachments/assets/9433ab20-0748-4000-994a-6ec33d9f7001)
 
+### Booking Options
+![Picture1](https://github.com/user-attachments/assets/ed3c5961-ae53-4e29-8236-d308e86b1e3d)
+
 ### Travel Booking Form
-![Picture3](https://github.com/user-attachments/assets/45610d45-f727-45ae-88e2-aa29eaeaf6e8)
+![Picture7](https://github.com/user-attachments/assets/6a3af325-a743-4270-ba35-8f095ba5b537)
+
 
 ### Booking Confirmation
 ![Picture4](https://github.com/user-attachments/assets/8c5dcf73-0ba9-4443-88cb-e9435c33e0c4)
-
-### Booking Status View
-![Picture5](https://github.com/user-attachments/assets/75383dd7-98cd-4d34-b541-3cb5437fe8c5)
 
 ## Functionalities
 - **Create New Booking**: Employees can fill out the booking form with required details such as name, employee ID, departure date, and destination.
